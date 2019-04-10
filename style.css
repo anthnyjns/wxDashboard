@@ -1,0 +1,128 @@
+
+.box-lg {
+  margin-left: 40px;
+}
+
+.bottom-text {
+  padding: 2px;
+}
+
+.credits {
+  margin-left: 80px;
+}
+
+.summary_text {
+  text-indent: 0px;
+  font-size: 1.0rem
+}
+
+.image-wrapper {
+  box-sizing:border-box;
+  float: left;
+  margin-bottom:5px;
+  width: 50%;
+}
+
+.image-wrapper:nth-child(even)
+{
+  padding-left:5px;
+}
+
+.image-wrapper:nth-child(odd)
+{
+  padding-right:5px;
+}
+
+.image-wrapper > img {
+  width: 100%;
+}
+
+.image-wrapper > span {
+  display: inline-block;
+  width: 100%;
+}
+
+.img_row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-top: 8px;
+}
+
+/* Create two equal columns that sits next to each other */
+.img_column {
+  flex: 50%;
+  padding: 0 4px;
+  margin-top: 8px;
+}
+
+.img_column_lg {
+  flex: 50%;
+  padding: 0 4px;
+  margin-top: 8px;
+  margin-left: 40px;
+  float:right;
+}
+
+.img_column_sm {
+  flex: 50%;
+  padding: 0 4px;
+  margin-top: 8px;
+  float:left;
+}
+
+.img_column img {
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  float:left;
+}
+
+.img_column_lg img {
+  flex: 50%;
+  padding: 0 4px;
+  margin-top: 8px;
+  margin-left: 40px;
+  float:right;
+}
+
+.img_column_sm img {
+  flex: 50%;
+  padding: 0 4px;
+  margin-top: 8px;
+  float:left;
+}
+
+.img_lg {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.img_lg img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.compare_text {
+  text-indent: 135px;
+  font-size: 1.5rem
+}
+
+.img_compare img {
+  display: block;
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-title {
+  text-align:center;
+  font: #20c997;
+  /* font: #3498DB; */
+}
+
+.plot-text {
+  text-indent: 100px;
+  font-size: 1.25rem
+}
